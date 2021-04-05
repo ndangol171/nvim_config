@@ -34,6 +34,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/rainbow_parentheses.vim'
     " Project manager
     Plug 'mhinz/vim-startify'
+    " Keybinding pop ups
+    Plug 'liuchengxu/vim-which-key'
 
     " Fzf
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
